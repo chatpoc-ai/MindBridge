@@ -7,7 +7,8 @@ const en: Translation = {
   nav: { home: 'Home', articles: 'Articles', qa: 'Q&A', admin: 'Admin', login: 'Login', logout: 'Logout', profile: 'Profile' },
   common: { 
     readMore: 'Read More', likes: 'Likes', views: 'Views', comments: 'Comments', answers: 'Answers', submit: 'Submit', cancel: 'Cancel', delete: 'Delete', edit: 'Edit', category: 'Category', searchPlaceholder: 'Search topics...', loading: 'Loading...', aiSummarize: 'AI Summary', aiAnswer: 'AI Answer',
-    askQuestion: 'Ask Question', askQuestionModalTitle: 'Ask a Question', titleLabel: 'Title', categoryLabel: 'Category', detailsLabel: 'Details', detailsPlaceholder: 'Describe your problem...'
+    askQuestion: 'Ask Question', askQuestionModalTitle: 'Ask a Question', titleLabel: 'Title', categoryLabel: 'Category', detailsLabel: 'Details', detailsPlaceholder: 'Describe your problem...',
+    live: 'LIVE', articleSubtitle: 'Real-time insights and latest updates.', qaSubtitle: 'Ask questions, get answers from community and AI.'
   },
   auth: { 
     welcome: 'Welcome Back', 
@@ -36,7 +37,8 @@ const zh: Translation = {
   nav: { home: '首页', articles: '文章', qa: '问答', admin: '管理后台', login: '登录', logout: '退出', profile: '个人中心' },
   common: { 
     readMore: '阅读更多', likes: '点赞', views: '浏览', comments: '评论', answers: '回答', submit: '提交', cancel: '取消', delete: '删除', edit: '编辑', category: '分类', searchPlaceholder: '搜索主题...', loading: '加载中...', aiSummarize: 'AI 摘要', aiAnswer: 'AI 回答',
-    askQuestion: '提问', askQuestionModalTitle: '提出问题', titleLabel: '标题', categoryLabel: '分类', detailsLabel: '详情', detailsPlaceholder: '描述您的问题...'
+    askQuestion: '提问', askQuestionModalTitle: '提出问题', titleLabel: '标题', categoryLabel: '分类', detailsLabel: '详情', detailsPlaceholder: '描述您的问题...',
+    live: '实时', articleSubtitle: '实时见解和最新动态。', qaSubtitle: '提问并从社区和 AI 获得解答。'
   },
   auth: { 
     welcome: '欢迎回来', 
@@ -65,7 +67,8 @@ const fr: Translation = {
   nav: { home: 'Accueil', articles: 'Articles', qa: 'Q&A', admin: 'Admin', login: 'Connexion', logout: 'Déconnexion', profile: 'Profil' },
   common: { 
     readMore: 'Lire la suite', likes: 'J\'aime', views: 'Vues', comments: 'Commentaires', answers: 'Réponses', submit: 'Envoyer', cancel: 'Annuler', delete: 'Supprimer', edit: 'Modifier', category: 'Catégorie', searchPlaceholder: 'Rechercher...', loading: 'Chargement...', aiSummarize: 'Résumé AI', aiAnswer: 'Réponse AI',
-    askQuestion: 'Poser une question', askQuestionModalTitle: 'Poser une question', titleLabel: 'Titre', categoryLabel: 'Catégorie', detailsLabel: 'Détails', detailsPlaceholder: 'Décrivez votre problème...'
+    askQuestion: 'Poser une question', askQuestionModalTitle: 'Poser une question', titleLabel: 'Titre', categoryLabel: 'Catégorie', detailsLabel: 'Détails', detailsPlaceholder: 'Décrivez votre problème...',
+    live: 'EN DIRECT', articleSubtitle: 'Informations en temps réel et dernières mises à jour.', qaSubtitle: 'Posez des questions, obtenez des réponses de la communauté et de l\'IA.'
   },
   auth: { 
     welcome: 'Bienvenue', 

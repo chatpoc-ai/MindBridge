@@ -51,10 +51,10 @@ const ArticleList: React.FC = () => {
           <h1 className="text-3xl font-bold text-gray-900 tracking-tight flex items-center">
             {t.nav.articles}
             <span className="ml-3 px-2 py-1 bg-red-500 text-white text-xs font-bold rounded-md animate-pulse flex items-center">
-              <Zap size={12} className="mr-1" /> LIVE
+              <Zap size={12} className="mr-1" /> {t.common.live}
             </span>
           </h1>
-          <p className="text-gray-500 mt-1">Real-time insights and latest updates.</p>
+          <p className="text-gray-500 mt-1">{t.common.articleSubtitle}</p>
         </div>
         
         <div className="flex items-center gap-2 overflow-x-auto pb-2 md:pb-0 hide-scrollbar">

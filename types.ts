@@ -96,6 +96,9 @@ export interface Translation {
     categoryLabel: string;
     detailsLabel: string;
     detailsPlaceholder: string;
+    live: string;
+    articleSubtitle: string;
+    qaSubtitle: string;
   };
   auth: {
     welcome: string;

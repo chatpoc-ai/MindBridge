@@ -25,7 +25,7 @@ const QAList: React.FC = () => {
       <div className="flex flex-col md:flex-row justify-between items-end md:items-center mb-8 gap-4">
         <div>
           <h1 className="text-3xl font-bold text-gray-900">{t.nav.qa}</h1>
-          <p className="text-gray-500 mt-1">Ask questions, get answers from community and AI.</p>
+          <p className="text-gray-500 mt-1">{t.common.qaSubtitle}</p>
         </div>
         {user && (
           <button 
